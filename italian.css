@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italian Food Recipes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #34495e;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+        }
+
+        header h1 {
+            align-self: center;
+            margin: 0;
+        }
+
+        .container {
+            margin: 1.5rem;
+        }
+
+        h2 {
+            margin: 1rem 0;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        p {
+            margin: 0.5rem 0;
+        }
+
+        @media (max-width: 768px) {
+            header,
+            .container {
+                padding: 1rem;
+            }
+        }
+
+        .recipe {
+            margin: 1rem 0;
+        }
+
+        .recipe h2 {
+            border-bottom: 1px solid #333;
+            padding: 0.5rem 0;
+        }
+
+        .recipe img {
+            border-radius: 10px;
+            margin: 1rem 0;
+        }
+
+        .recipe p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Replace with the correct image URLs for Italian food recipes */
+        .recipe
